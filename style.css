@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("https://wallpaperaccess.com/full/3764935.jpg");
+}
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    position: relative;
+    color: var(--white);
+  }
+  .title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50rem;
+    color: rgb(224, 128, 11);
+    padding: 1rem 0;
+  }
+  
+  .box {
+    border-radius: 30px;
+    width: 50rem;
+    background-color: rgba(59, 58, 59, 0.326);
+    color: rgb(196, 196, 196);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 3.5rem;
+  }
